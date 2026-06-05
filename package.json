@@ -1,0 +1,13 @@
+{
+  "name": "ai-bizops-orchestrator",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --workspace frontend run dev",
+    "build:frontend": "npm --workspace frontend run build",
+    "start:frontend": "npm --workspace frontend run start"
+  }
+}
+
